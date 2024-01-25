@@ -1,0 +1,13 @@
+{
+  "id": "imgbb-upload",
+  "name": "imgBB Image Upload",
+  "description": "Upload images to imgBB and extract image URL and name.",
+  "url": "https://github.com/ipanel/nodebb-plugin-imgbb-upload",
+  "library": "./library.js",
+  "hooks": [
+    {
+      "hook": "filter:uploadImage",
+      "method": "uploadImage"
+    }
+  ]
+}
